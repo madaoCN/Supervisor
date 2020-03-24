@@ -36,8 +36,8 @@ Pod::Spec.new do |s|
       'iSupervisor' => ['Supervisor/Assets/*.png']
   }
   
-  s.subspec 'SupervisorLog' do |subspec|
-      subspec.source_files = 'Core/SupervisorLog/Classes/**/*'
+  s.subspec 'SupervisorLogger' do |subspec|
+      subspec.source_files = 'Core/SupervisorLogger/Classes/**/*'
   end
   
   # s.resource_bundles = {

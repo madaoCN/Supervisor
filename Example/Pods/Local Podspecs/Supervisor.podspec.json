@@ -26,8 +26,8 @@
   },
   "subspecs": [
     {
-      "name": "SupervisorLog",
-      "source_files": "Core/SupervisorLog/Classes/**/*"
+      "name": "SupervisorLogger",
+      "source_files": "Core/SupervisorLogger/Classes/**/*"
     }
   ]
 }

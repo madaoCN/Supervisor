@@ -1,6 +1,6 @@
 //
 //  SupervisorLogModel.swift
-//  iSupervisor
+//  Supervisor
 //
 //  Created by 梁宪松 on 2020/3/24.
 //
@@ -79,7 +79,12 @@ open class SupervisorLogModel: NSObject {
         
         get {
             var des = String.init()
-            des.append(contentsOf: "[\(SupervisorLogType.description(with: self.type))]")
+            
+            if let executeableName = Bundle.main.object(forInfoDictionaryKey: kCFBundleExecutableKey as String) as? String {
+                des.append(contentsOf: executeableName)
+            }
+            
+            des.append(contentsOf: " [\(SupervisorLogType.description(with: self.type))]")
             
             des.append(contentsOf: " \(self.date.description)")
             

@@ -1,7 +1,7 @@
 PODS:
   - Supervisor (0.1.0):
-    - Supervisor/SupervisorLog (= 0.1.0)
-  - Supervisor/SupervisorLog (0.1.0)
+    - Supervisor/SupervisorLogger (= 0.1.0)
+  - Supervisor/SupervisorLogger (0.1.0)
 
 DEPENDENCIES:
   - Supervisor (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Supervisor: 7847d7d6c39e98ccd09c01d38890d561a5e3a095
+  Supervisor: ed83bcd392596abbb4dad49b9c8b934bb3cf740d
 
 PODFILE CHECKSUM: f69833fb204126afe49d5626521401e522656be9
 

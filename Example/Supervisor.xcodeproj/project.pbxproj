@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12B4A2D73254CD911815A481 /* Pods_Supervisor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B16E0F2A0E3188365F89331 /* Pods_Supervisor_Example.framework */; };
+		51DC545A2429DF9D00A2ADB2 /* SupervisorLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC54592429DF9D00A2ADB2 /* SupervisorLoggerTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		0CE23FE2D990F87550DF0427 /* Supervisor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Supervisor.podspec; path = ../Supervisor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D824FE880B10F7DCF1FBD8D /* Pods_Supervisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supervisor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3C42CF36E5A0E176AE490B /* Pods-Supervisor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supervisor_Example.debug.xcconfig"; path = "Target Support Files/Pods-Supervisor_Example/Pods-Supervisor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		51DC54592429DF9D00A2ADB2 /* SupervisorLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisorLoggerTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Supervisor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supervisor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		51DC54562429DF7F00A2ADB2 /* SupervisorLogger */ = {
+			isa = PBXGroup;
+			children = (
+				51DC54592429DF9D00A2ADB2 /* SupervisorLoggerTests.swift */,
+			);
+			name = SupervisorLogger;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				51DC54562429DF7F00A2ADB2 /* SupervisorLogger */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -212,10 +223,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B35J5K5S3C;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B35J5K5S3C;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -341,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				51DC545A2429DF9D00A2ADB2 /* SupervisorLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +492,7 @@
 			baseConfigurationReference = 3E3C42CF36E5A0E176AE490B /* Pods-Supervisor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B35J5K5S3C;
 				INFOPLIST_FILE = Supervisor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +508,7 @@
 			baseConfigurationReference = 0197F3E1A1FD790CD5597270 /* Pods-Supervisor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B35J5K5S3C;
 				INFOPLIST_FILE = Supervisor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9675F4272EA53884AAA02032 /* Pods-Supervisor_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = B35J5K5S3C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFB6B36ABD2E9EE737BDDDAA /* Pods-Supervisor_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = B35J5K5S3C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

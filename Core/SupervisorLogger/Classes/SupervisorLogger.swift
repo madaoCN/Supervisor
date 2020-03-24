@@ -1,6 +1,6 @@
 //
-//  Supervisor.swift
-//  iSupervisor
+//  SupervisorLogger.swift
+//  Supervisor
 //
 //  Created by 梁宪松 on 2020/3/24.
 //
@@ -10,7 +10,7 @@ import UIKit
 //--------------------------------------------------------------------------
 // MARK: SupervisorLogDelegate
 //--------------------------------------------------------------------------
-@objc public protocol SupervisorLogDelegate: NSObjectProtocol {
+@objc public protocol SupervisorLoggerDelegate: NSObjectProtocol {
     
     func supervisorLogDidLog(with logModel: SupervisorLogModel)
 }
@@ -19,17 +19,24 @@ import UIKit
 // MARK: Simple Log Lib
 //--------------------------------------------------------------------------
 @objcMembers
-open class SupervisorLog: NSObject {
+open class SupervisorLogger: NSObject {
         
+    //--------------------------------------------------------------------------
+    // MARK: open property
+    //--------------------------------------------------------------------------
+    
+    // log level, default is info
+    open var logLevel : SupervisorLogType = .info;
+
     //--------------------------------------------------------------------------
     // MARK: file private property
     //--------------------------------------------------------------------------
     
     // shared instance
-    fileprivate static let shared: SupervisorLog = SupervisorLog()
+    fileprivate static let shared: SupervisorLogger = SupervisorLogger()
     
     // weak delegate tables
-    fileprivate var delegateTable = NSHashTable<SupervisorLogDelegate>(options: .weakMemory)
+    fileprivate var delegateTable = NSHashTable<SupervisorLoggerDelegate>(options: .weakMemory)
     
     // log queue
     open var logQueue = DispatchQueue.init(label: "SupervisorLog")
@@ -57,6 +64,10 @@ open class SupervisorLog: NSObject {
             return
         }
         
+        if type.rawValue < self.logLevel.rawValue {
+            return
+        }
+        
         self.delegateQueue.async {
             
             let logModel = SupervisorLogModel.init(
@@ -72,7 +83,7 @@ open class SupervisorLog: NSObject {
             self.delegateQueue.async {
                 
                 for delegate in self.delegateTable.objectEnumerator() {
-                    (delegate as? SupervisorLogDelegate)?.supervisorLogDidLog(with: logModel)
+                    (delegate as? SupervisorLoggerDelegate)?.supervisorLogDidLog(with: logModel)
                 }
             }
         }
@@ -87,7 +98,7 @@ open class SupervisorLog: NSObject {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging debug messages
 //--------------------------------------------------------------------------
-extension SupervisorLog {
+extension SupervisorLogger {
     
     open class func debug(message: String?,
                          thread: Thread = Thread.current,
@@ -107,7 +118,7 @@ extension SupervisorLog {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging info messages
 //--------------------------------------------------------------------------
-extension SupervisorLog {
+extension SupervisorLogger {
     
     open class func info(message: String?,
                          thread: Thread = Thread.current,
@@ -127,7 +138,7 @@ extension SupervisorLog {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging warn messages
 //--------------------------------------------------------------------------
-extension SupervisorLog {
+extension SupervisorLogger {
     
     open class func warn(message: String?,
                          thread: Thread = Thread.current,
@@ -147,7 +158,7 @@ extension SupervisorLog {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging error messages
 //--------------------------------------------------------------------------
-extension SupervisorLog {
+extension SupervisorLogger {
     
     open class func error(message: String?,
                          thread: Thread = Thread.current,
@@ -167,15 +178,15 @@ extension SupervisorLog {
 //--------------------------------------------------------------------------
 // MARK: Extension for delegate table
 //--------------------------------------------------------------------------
-extension SupervisorLog {
+extension SupervisorLogger {
     
     
-    open class func add(delegate: SupervisorLogDelegate?) {
+    open class func add(delegate: SupervisorLoggerDelegate?) {
         
         self.shared.delegateTable.add(delegate)
     }
     
-    open class func remove(delegate: SupervisorLogDelegate?) {
+    open class func remove(delegate: SupervisorLoggerDelegate?) {
         
         self.shared.delegateTable.remove(delegate)
     }
