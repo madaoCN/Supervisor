@@ -1,0 +1,6 @@
+framework module Supervisor {
+  umbrella header "Supervisor-umbrella.h"
+
+  export *
+  module * { export * }
+}

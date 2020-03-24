@@ -1,0 +1,18 @@
+PODS:
+  - Supervisor (0.1.0):
+    - Supervisor/SupervisorLog (= 0.1.0)
+  - Supervisor/SupervisorLog (0.1.0)
+
+DEPENDENCIES:
+  - Supervisor (from `../`)
+
+EXTERNAL SOURCES:
+  Supervisor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Supervisor: 7847d7d6c39e98ccd09c01d38890d561a5e3a095
+
+PODFILE CHECKSUM: f69833fb204126afe49d5626521401e522656be9
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Supervisor_Example' do
+  pod 'Supervisor', :path => '../'
+
+  target 'Supervisor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

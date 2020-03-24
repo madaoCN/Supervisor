@@ -1,0 +1,33 @@
+{
+  "name": "Supervisor",
+  "version": "0.1.0",
+  "summary": "a monitor tool kit for iOS developer.",
+  "description": "a monitor tool kit for iOS developer.",
+  "homepage": "https://github.com/madaoCN/Supervisor",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "madaoCN": "1349963838@163.com"
+  },
+  "source": {
+    "git": "https://github.com/madaoCN/Supervisor.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Supervisor/Classes/**/*",
+  "resource_bundles": {
+    "iSupervisor": [
+      "Supervisor/Assets/*.png"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "SupervisorLog",
+      "source_files": "Core/SupervisorLog/Classes/**/*"
+    }
+  ]
+}
