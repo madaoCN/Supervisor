@@ -5,7 +5,7 @@
 //  Created by 梁宪松 on 2020/3/24.
 //
 
-import UIKit
+import Foundation
 
 //--------------------------------------------------------------------------
 // MARK: NSLogSupervisorDelegate
@@ -16,6 +16,9 @@ import UIKit
 }
 
 @objcMembers
+//--------------------------------------------------------------------------
+// MARK: A tool to hook NSObject and print outputs
+//--------------------------------------------------------------------------
 open class NSLogSupervisor: NSObject {
 
     //--------------------------------------------------------------------------

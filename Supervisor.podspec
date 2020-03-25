@@ -47,7 +47,9 @@ Pod::Spec.new do |s|
       subspec.dependency     'fishhook', '~> 0.2'
   end
   
-
+  s.subspec 'CrashSupervisor' do |subspec|
+      subspec.source_files = 'Core/CrashSupervisor/Classes/**/*'
+  end
   # s.resource_bundles = {
   #   'iSupervisor' => ['iSupervisor/Assets/*.png']
   # }

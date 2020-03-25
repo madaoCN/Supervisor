@@ -40,6 +40,10 @@
           "~> 0.2"
         ]
       }
+    },
+    {
+      "name": "CrashSupervisor",
+      "source_files": "Core/CrashSupervisor/Classes/**/*"
     }
   ]
 }

@@ -9,11 +9,19 @@
 import UIKit
 import Supervisor
 
-class ViewController: UIViewController {
- 
+class ViewController: UIViewController, CrashSupervisorDelegate {
+    
+    func crashSupervisorDidCatchCrash(_ crashModel: CSCrashModel) {
+        SupervisorLogger.debug(message: "test")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        CrashSupervisor.add(self)
+        var arr: NSMutableArray = NSArray.init() as! NSMutableArray
+        arr.add("test")
     }
 
     override func didReceiveMemoryWarning() {

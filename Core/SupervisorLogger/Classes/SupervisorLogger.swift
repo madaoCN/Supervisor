@@ -26,7 +26,7 @@ open class SupervisorLogger: NSObject {
     //--------------------------------------------------------------------------
     
     // log level, default is info
-    open var logLevel : SupervisorLogType = .info;
+    open var logLevel : SupervisorLogType = .debug;
 
     // log queue
     open var logQueue = DispatchQueue.init(label: "com.madao.SupervisorLogger")

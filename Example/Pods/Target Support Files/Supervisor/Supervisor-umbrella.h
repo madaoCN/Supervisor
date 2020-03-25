@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CrashSupervisor.h"
 #import "ASLFishHook.h"
 
 FOUNDATION_EXPORT double SupervisorVersionNumber;

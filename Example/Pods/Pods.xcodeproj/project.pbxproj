@@ -8,31 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		023B9E73CC418804A11C7163D302E7B6 /* Pods-Supervisor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 360819F1CFA129B2BCD018FDC313A8A8 /* Pods-Supervisor_Example-dummy.m */; };
+		057D70D6D9CFCF1D2B0EDD525DE63555 /* fishhook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF2B271DD6CFAB7E0956B2D2C96A79C /* fishhook.framework */; };
 		060AC87308BFCEF2AFFBB0C6AC4A0E6A /* Pods-Supervisor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB624DB173CFA14BFCDA8CC5FB1A689 /* Pods-Supervisor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDB824794CE9BA61DDE1FE77FC88C4D /* fishhook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DBF9D947C692BDB4A1F4BD0CA9A83C /* fishhook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		133E79F391267E7E19C3E0D72F999E97 /* Pods-Supervisor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 115925A628C3EB116E59AC3CCD4C6131 /* Pods-Supervisor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DCD73294988697CEEEE2AE9C9952910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44AA07F84A44684514291D63502F37F /* Foundation.framework */; };
-		2E10359C4DF67B79736536FF535B18B2 /* fishhook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF2B271DD6CFAB7E0956B2D2C96A79C /* fishhook.framework */; };
-		376C75C10C63CAC8358C216A52F92299 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4452AC8ABBC0B8409B118B8687DBF7 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		669850FAA75AC54AD0DB61BBE9F26FBF /* SupervisorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB991EDF6E25FAFB9F8173D97F00AEBB /* SupervisorLogger.swift */; };
-		91A80E1D3C25AFE7E1E7A00526C7006D /* ASLFishHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E703E943DDBFB26047CC6225F39CC59 /* ASLFishHook.m */; };
-		9539D3F7DFDEB9C32139B5B9E261526F /* NSLogSupervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B21B1450DA758067A32F15F569F125C /* NSLogSupervisor.swift */; };
-		A01C06ED0E0E4D7DB4F21B6F90D12A2E /* Supervisor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FF975146B86324574B4822CF46D2DA /* Supervisor-dummy.m */; };
-		B1B92A0BB9DF7C98B964D3C8F7B22484 /* iSupervisor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 391ACCF2E7CF1583EFBE5873AE601D0E /* iSupervisor.bundle */; };
-		B2E6886B9276A340EEDB044B36208185 /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D89ECB949A6EF7211AC02376D454FC0D /* fishhook-dummy.m */; };
+		1939E42EC414EAD9DCAFFAFEE8ADF639 /* Supervisor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF36B82245F007E7AE10F1C29E89F2 /* Supervisor-dummy.m */; };
+		19A567F5D34919785C60EE011240A8A1 /* Supervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F34C0969100D8E005E6233A0561803 /* Supervisor.swift */; };
+		24B0CB46C4A7810FBD69FCAAF9D9865D /* fishhook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D89ECB949A6EF7211AC02376D454FC0D /* fishhook-dummy.m */; };
+		48E55DD2DBCC89A350E6B9FB6961AA61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44AA07F84A44684514291D63502F37F /* Foundation.framework */; };
+		4D953EC9CF4C7E9244C4E634035ABD34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44AA07F84A44684514291D63502F37F /* Foundation.framework */; };
+		514DE5D64E9519F201C21D726F7129A4 /* ASLFishHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0166282A3CED7EA48460241A2C329148 /* ASLFishHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		539190CD59901389DC7563689CCEE3DB /* CrashSupervisor.h in Headers */ = {isa = PBXBuildFile; fileRef = A77FB423E1C4D23C50EDB0F35CEF5757 /* CrashSupervisor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6980F9B4F239D4B062E633E519D5FDDC /* fishhook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DBF9D947C692BDB4A1F4BD0CA9A83C /* fishhook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		776E7E2CA8FA167FB72332370CCF7E75 /* ASLFishHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E20916F5FE4C8A52B2432E37C9BFC31 /* ASLFishHook.m */; };
+		80E6BFE7E24602251A6BCDBC73B3D5C2 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D9FD079914C3AF06904776EC52070D70 /* fishhook.c */; };
+		99A54E6994BDBBBCCDFE8FE29E2284FC /* CrashSupervisor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D17CDEA157322196FD6CF3744A38E4E /* CrashSupervisor.m */; };
 		B48F46AEBBF7E0D3146230A2EA4DE1F4 /* Pods-Supervisor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ADD22FF89C8DBAB4F9A15884BAF3A8 /* Pods-Supervisor_Tests-dummy.m */; };
-		B8B493769BF6AA70DCD1331A28CC5F10 /* Supervisor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B82E8E59815CF096696A1020E18187 /* Supervisor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB1F7265C5A3B45328C72F38BD6ED8A7 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4452AC8ABBC0B8409B118B8687DBF7 /* fishhook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBF51C8AC3F1F7ED72EEBFCDE1F2F19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44AA07F84A44684514291D63502F37F /* Foundation.framework */; };
-		C65D943D868462C41969E3353F9A6C8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44AA07F84A44684514291D63502F37F /* Foundation.framework */; };
-		E5BD10E43828A5D3773FCEAF4F89F88B /* Supervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C16C6BC918B9C40D3D1B1BF47878255 /* Supervisor.swift */; };
+		D452C2068602FF7B51FA61B4FF974B5B /* SupervisorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1243BF04EBDA418CB92D0C99D9043CC /* SupervisorLogger.swift */; };
+		D6ADE07439010C0ED7698440EDF8A5E3 /* iSupervisor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 391ACCF2E7CF1583EFBE5873AE601D0E /* iSupervisor.bundle */; };
+		DBD0143C93A9C369C06A8D7EA536BC12 /* NSLogSupervisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849421A75B4CA47427CB172184699A89 /* NSLogSupervisor.swift */; };
 		E90D3D39F3BCAD3F15781E6FB6A5A04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44AA07F84A44684514291D63502F37F /* Foundation.framework */; };
-		F378F2F3CE68F61A83494A6F05ABFC56 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = D9FD079914C3AF06904776EC52070D70 /* fishhook.c */; };
-		F4E4AFD8DD57B3C10BF18FD56F2A0387 /* ASLFishHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA8AED0D28A061987A35CA5AFC3293A /* ASLFishHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F812B214659F528F779C85E015993E1D /* SupervisorLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF114200FAA76F3C10DC9636964C3D1 /* SupervisorLogModel.swift */; };
+		EB1BB71801CA4CF9253229F325A56724 /* Supervisor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B94AA9F17FDB694CDDC6A73D8B11062 /* Supervisor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC9D15CEC4BE7100A580E07C564464A1 /* SupervisorLogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F44D3F037DBF184F9FEBCFD80A075C /* SupervisorLogModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D93D5B90348D7F422B7E69F04F57AA4 /* PBXContainerItemProxy */ = {
+		157FC4B7395E4A8AE78EF50031A0AA90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9478C45BD5E5BF904CE37F20AF382A;
+			remoteInfo = "Supervisor-iSupervisor";
+		};
+		61E716269C91E4D90223A7EBBE2B2BFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -45,13 +54,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = FED913AA2798BB5DE47159BC1E0775E0;
 			remoteInfo = "Pods-Supervisor_Example";
-		};
-		9C509202C515E2213DEAC3A7617ACF51 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CE9478C45BD5E5BF904CE37F20AF382A;
-			remoteInfo = "Supervisor-iSupervisor";
 		};
 		BB390C614D1960EBF751243BA56291B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,48 +72,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C452FE0F634E78D626DBF74D8EF508 /* Supervisor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Supervisor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		05FF975146B86324574B4822CF46D2DA /* Supervisor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Supervisor-dummy.m"; sourceTree = "<group>"; };
-		0E28A4D0D92D50E3306E001991AFF494 /* ResourceBundle-iSupervisor-Supervisor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-iSupervisor-Supervisor-Info.plist"; sourceTree = "<group>"; };
+		0166282A3CED7EA48460241A2C329148 /* ASLFishHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASLFishHook.h; sourceTree = "<group>"; };
 		115925A628C3EB116E59AC3CCD4C6131 /* Pods-Supervisor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Supervisor_Tests-umbrella.h"; sourceTree = "<group>"; };
-		15B82E8E59815CF096696A1020E18187 /* Supervisor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Supervisor-umbrella.h"; sourceTree = "<group>"; };
-		1E703E943DDBFB26047CC6225F39CC59 /* ASLFishHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASLFishHook.m; sourceTree = "<group>"; };
 		212E18524227A753AB25C9D9EE857204 /* Pods-Supervisor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supervisor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24DBF9D947C692BDB4A1F4BD0CA9A83C /* fishhook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "fishhook-umbrella.h"; sourceTree = "<group>"; };
 		29AEB3A8DD84CA3CEE17AD1E84D3D6EE /* Pods_Supervisor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Supervisor_Example.framework; path = "Pods-Supervisor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0DEC603983DDAE67F5D57F75502DBE /* Supervisor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Supervisor-Info.plist"; sourceTree = "<group>"; };
 		360819F1CFA129B2BCD018FDC313A8A8 /* Pods-Supervisor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Supervisor_Example-dummy.m"; sourceTree = "<group>"; };
+		3674E8BB582D01516218F574BF813FB1 /* Supervisor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Supervisor.modulemap; sourceTree = "<group>"; };
 		38B7FC19ADE351F0214BD5EA0BBB64CF /* Pods_Supervisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Supervisor_Tests.framework; path = "Pods-Supervisor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E95E5BA8E4488E058AAADB7655C25C /* fishhook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fishhook.xcconfig; sourceTree = "<group>"; };
 		391ACCF2E7CF1583EFBE5873AE601D0E /* iSupervisor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = iSupervisor.bundle; path = "Supervisor-iSupervisor.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C16C6BC918B9C40D3D1B1BF47878255 /* Supervisor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Supervisor.swift; path = Supervisor/Classes/Supervisor.swift; sourceTree = "<group>"; };
-		3EF114200FAA76F3C10DC9636964C3D1 /* SupervisorLogModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupervisorLogModel.swift; path = Core/SupervisorLogger/Classes/SupervisorLogModel.swift; sourceTree = "<group>"; };
+		39D4845428F56031A5526EBFADB945E0 /* ResourceBundle-iSupervisor-Supervisor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-iSupervisor-Supervisor-Info.plist"; sourceTree = "<group>"; };
+		3B94AA9F17FDB694CDDC6A73D8B11062 /* Supervisor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Supervisor-umbrella.h"; sourceTree = "<group>"; };
 		3F9F78CABCFE497B01BACBBF3B09842F /* Pods-Supervisor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supervisor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		41CAAD2CD73486299733E300FB30B52B /* Pods-Supervisor_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supervisor_Tests-Info.plist"; sourceTree = "<group>"; };
+		429B19838403647306E1395FF92BDB67 /* Supervisor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Supervisor-prefix.pch"; sourceTree = "<group>"; };
 		468A4EBDFC5AF84A7E10E7E8E5130639 /* Pods-Supervisor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supervisor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D137132A11412F182BB52A17B894B0E /* Pods-Supervisor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Supervisor_Tests.modulemap"; sourceTree = "<group>"; };
-		503294C573F85F1B92DCCEEFCCEDE1C4 /* Supervisor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Supervisor.xcconfig; sourceTree = "<group>"; };
+		50C70FDBB279080889B758D28B28512D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		579C07F7DE9C84C2D2E463BDDA6CFD7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5918C90CB01EA9EFA3E5C5CBBB43B28E /* Supervisor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Supervisor.framework; path = Supervisor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA8AED0D28A061987A35CA5AFC3293A /* ASLFishHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ASLFishHook.h; sourceTree = "<group>"; };
+		5D17CDEA157322196FD6CF3744A38E4E /* CrashSupervisor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CrashSupervisor.m; path = Core/CrashSupervisor/Classes/CrashSupervisor.m; sourceTree = "<group>"; };
 		68C725C96C758D99545B5BAFA71D5771 /* Pods-Supervisor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Supervisor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6908CD3195F859764529A585A6AFECC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		70FF36B82245F007E7AE10F1C29E89F2 /* Supervisor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Supervisor-dummy.m"; sourceTree = "<group>"; };
 		72622BCFFB6F80BF1440AD7670511EB3 /* Pods-Supervisor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supervisor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7D4452AC8ABBC0B8409B118B8687DBF7 /* fishhook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		8B21B1450DA758067A32F15F569F125C /* NSLogSupervisor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogSupervisor.swift; path = Core/NSLogSupervisor/Classes/NSLogSupervisor.swift; sourceTree = "<group>"; };
-		900E6BF5A087725A0D933E012C3F467E /* Supervisor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Supervisor.modulemap; sourceTree = "<group>"; };
-		973D3273B98AB29E128906663F35C865 /* Supervisor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Supervisor-prefix.pch"; sourceTree = "<group>"; };
+		849421A75B4CA47427CB172184699A89 /* NSLogSupervisor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLogSupervisor.swift; path = Core/NSLogSupervisor/Classes/NSLogSupervisor.swift; sourceTree = "<group>"; };
+		8E20916F5FE4C8A52B2432E37C9BFC31 /* ASLFishHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ASLFishHook.m; sourceTree = "<group>"; };
 		97ADD22FF89C8DBAB4F9A15884BAF3A8 /* Pods-Supervisor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Supervisor_Tests-dummy.m"; sourceTree = "<group>"; };
 		9CA216629A7529B075F3AC826470B254 /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = fishhook.framework; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB991EDF6E25FAFB9F8173D97F00AEBB /* SupervisorLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupervisorLogger.swift; path = Core/SupervisorLogger/Classes/SupervisorLogger.swift; sourceTree = "<group>"; };
+		A77FB423E1C4D23C50EDB0F35CEF5757 /* CrashSupervisor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CrashSupervisor.h; path = Core/CrashSupervisor/Classes/CrashSupervisor.h; sourceTree = "<group>"; };
 		AC8CC116348DF6043BE7EDE63AAB1EDA /* Pods-Supervisor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Supervisor_Example.modulemap"; sourceTree = "<group>"; };
+		AF9AB04056C7721F569F49F92A4066DA /* Supervisor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Supervisor.xcconfig; sourceTree = "<group>"; };
+		B1243BF04EBDA418CB92D0C99D9043CC /* SupervisorLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupervisorLogger.swift; path = Core/SupervisorLogger/Classes/SupervisorLogger.swift; sourceTree = "<group>"; };
+		B1660EE8731F581CE99277314E780D2D /* Supervisor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Supervisor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B1EB34B29C406934BC747FC3E2EDBAFD /* fishhook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "fishhook-Info.plist"; sourceTree = "<group>"; };
-		B3D49808040869753996A0C1A49FB8FC /* Supervisor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Supervisor-Info.plist"; sourceTree = "<group>"; };
 		BEF2B271DD6CFAB7E0956B2D2C96A79C /* fishhook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fishhook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F44D3F037DBF184F9FEBCFD80A075C /* SupervisorLogModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupervisorLogModel.swift; path = Core/SupervisorLogger/Classes/SupervisorLogModel.swift; sourceTree = "<group>"; };
 		CAECB6242766B33252AC4479D348A87F /* Pods-Supervisor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supervisor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2F34C0969100D8E005E6233A0561803 /* Supervisor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Supervisor.swift; path = Supervisor/Classes/Supervisor.swift; sourceTree = "<group>"; };
 		D44AA07F84A44684514291D63502F37F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D89ECB949A6EF7211AC02376D454FC0D /* fishhook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "fishhook-dummy.m"; sourceTree = "<group>"; };
 		D9FD079914C3AF06904776EC52070D70 /* fishhook.c */ = {isa = PBXFileReference; includeInIndex = 1; path = fishhook.c; sourceTree = "<group>"; };
-		E1D105F7DC71828031DE990534F48A68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E2C7FCB41695B039C646B0E90BEF19EC /* fishhook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = fishhook.modulemap; sourceTree = "<group>"; };
 		E3DAE6DAF4FEA5F939034DE522762D4D /* Pods-Supervisor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Supervisor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E6243D6C1BCC11A672A254EDD56FB9EC /* Pods-Supervisor_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Supervisor_Example-Info.plist"; sourceTree = "<group>"; };
@@ -122,15 +126,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		36C604E02D106A4EF5CE12F5A6E6C807 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E10359C4DF67B79736536FF535B18B2 /* fishhook.framework in Frameworks */,
-				C65D943D868462C41969E3353F9A6C8F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		49EBE71D70A6F77F1D4898CB0921ABE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,10 +134,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80564F2AD534CD38CF4E1C38494B3C4 /* Frameworks */ = {
+		783336B97A0D1C7A5AC6BCE941AFE9E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E55DD2DBCC89A350E6B9FB6961AA61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E6A5806A78A83549740E717794260D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EF0016599E8F7E32FC94FC29CDD7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057D70D6D9CFCF1D2B0EDD525DE63555 /* fishhook.framework in Frameworks */,
+				4D953EC9CF4C7E9244C4E634035ABD34 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,24 +166,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D20FF940BDC8BF829C3A2280783BDF9B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DCD73294988697CEEEE2AE9C9952910 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		049A964CFF135226F24D320A7B59195D /* NSLogSupervisor */ = {
+		18A92B6EC5E18C891EEF8AE0D5529561 /* Supervisor */ = {
 			isa = PBXGroup;
 			children = (
-				8B21B1450DA758067A32F15F569F125C /* NSLogSupervisor.swift */,
-				B867D61C6ABEA5A9616C065D1D287789 /* OCBridge */,
+				D2F34C0969100D8E005E6233A0561803 /* Supervisor.swift */,
+				E9CEBEC5B65D27B9DBE86491EA4BDF6C /* CrashSupervisor */,
+				D25B86FB266238090A3AB7870082F4FC /* NSLogSupervisor */,
+				F41C8D16DBC305E7B3158F2324452CCB /* Pod */,
+				18C5AD40F8BC8042FADB68BAFDA2EA04 /* SupervisorLogger */,
+				BB350E402B7743BBF3A4848E11B2115E /* Support Files */,
 			);
-			name = NSLogSupervisor;
+			name = Supervisor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		18C5AD40F8BC8042FADB68BAFDA2EA04 /* SupervisorLogger */ = {
+			isa = PBXGroup;
+			children = (
+				B1243BF04EBDA418CB92D0C99D9043CC /* SupervisorLogger.swift */,
+				C5F44D3F037DBF184F9FEBCFD80A075C /* SupervisorLogModel.swift */,
+			);
+			name = SupervisorLogger;
 			sourceTree = "<group>";
 		};
 		27763F626C616FBB1F8A91D705E7C430 /* Targets Support Files */ = {
@@ -223,31 +241,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76B965780EDAC9D3E1CC8E6C7CA04ABE /* Development Pods */ = {
+		77DEA595BFC2FDB1CCF3CD2C52560993 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AA958F6A26039CBA19E2866129EEE873 /* Supervisor */,
+				18A92B6EC5E18C891EEF8AE0D5529561 /* Supervisor */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		81A265D83150706E0D5F190AA365386C /* SupervisorLogger */ = {
-			isa = PBXGroup;
-			children = (
-				AB991EDF6E25FAFB9F8173D97F00AEBB /* SupervisorLogger.swift */,
-				3EF114200FAA76F3C10DC9636964C3D1 /* SupervisorLogModel.swift */,
-			);
-			name = SupervisorLogger;
-			sourceTree = "<group>";
-		};
-		87574FE37EB5863ACBC87051DADBA60A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E1D105F7DC71828031DE990534F48A68 /* LICENSE */,
-				6908CD3195F859764529A585A6AFECC1 /* README.md */,
-				03C452FE0F634E78D626DBF74D8EF508 /* Supervisor.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		87C80EB5335E828C66680F2950663B95 /* Pods-Supervisor_Example */ = {
@@ -297,54 +296,40 @@
 			path = "Target Support Files/Pods-Supervisor_Tests";
 			sourceTree = "<group>";
 		};
-		9D9F6304BE49B951D29D5992170902E6 /* Support Files */ = {
+		BB350E402B7743BBF3A4848E11B2115E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E28A4D0D92D50E3306E001991AFF494 /* ResourceBundle-iSupervisor-Supervisor-Info.plist */,
-				900E6BF5A087725A0D933E012C3F467E /* Supervisor.modulemap */,
-				503294C573F85F1B92DCCEEFCCEDE1C4 /* Supervisor.xcconfig */,
-				05FF975146B86324574B4822CF46D2DA /* Supervisor-dummy.m */,
-				B3D49808040869753996A0C1A49FB8FC /* Supervisor-Info.plist */,
-				973D3273B98AB29E128906663F35C865 /* Supervisor-prefix.pch */,
-				15B82E8E59815CF096696A1020E18187 /* Supervisor-umbrella.h */,
+				39D4845428F56031A5526EBFADB945E0 /* ResourceBundle-iSupervisor-Supervisor-Info.plist */,
+				3674E8BB582D01516218F574BF813FB1 /* Supervisor.modulemap */,
+				AF9AB04056C7721F569F49F92A4066DA /* Supervisor.xcconfig */,
+				70FF36B82245F007E7AE10F1C29E89F2 /* Supervisor-dummy.m */,
+				2A0DEC603983DDAE67F5D57F75502DBE /* Supervisor-Info.plist */,
+				429B19838403647306E1395FF92BDB67 /* Supervisor-prefix.pch */,
+				3B94AA9F17FDB694CDDC6A73D8B11062 /* Supervisor-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Supervisor";
-			sourceTree = "<group>";
-		};
-		AA958F6A26039CBA19E2866129EEE873 /* Supervisor */ = {
-			isa = PBXGroup;
-			children = (
-				3C16C6BC918B9C40D3D1B1BF47878255 /* Supervisor.swift */,
-				049A964CFF135226F24D320A7B59195D /* NSLogSupervisor */,
-				87574FE37EB5863ACBC87051DADBA60A /* Pod */,
-				81A265D83150706E0D5F190AA365386C /* SupervisorLogger */,
-				9D9F6304BE49B951D29D5992170902E6 /* Support Files */,
-			);
-			name = Supervisor;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B867D61C6ABEA5A9616C065D1D287789 /* OCBridge */ = {
-			isa = PBXGroup;
-			children = (
-				5DA8AED0D28A061987A35CA5AFC3293A /* ASLFishHook.h */,
-				1E703E943DDBFB26047CC6225F39CC59 /* ASLFishHook.m */,
-			);
-			name = OCBridge;
-			path = Core/NSLogSupervisor/Classes/OCBridge;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				76B965780EDAC9D3E1CC8E6C7CA04ABE /* Development Pods */,
+				77DEA595BFC2FDB1CCF3CD2C52560993 /* Development Pods */,
 				49684BF2BBADFDE6C8411D88879E913D /* Frameworks */,
 				2DCD3E679CA9C0693E674C0A4A6A8F87 /* Pods */,
 				7344BA7B9DE2D0CD787FD8FCBDB44B36 /* Products */,
 				27763F626C616FBB1F8A91D705E7C430 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D25B86FB266238090A3AB7870082F4FC /* NSLogSupervisor */ = {
+			isa = PBXGroup;
+			children = (
+				849421A75B4CA47427CB172184699A89 /* NSLogSupervisor.swift */,
+				F649F5E075126115EC0CD6D1A9D4DE1E /* OCBridge */,
+			);
+			name = NSLogSupervisor;
 			sourceTree = "<group>";
 		};
 		D267380211CE3D7D5CB5089160EAB9C8 /* iOS */ = {
@@ -355,24 +340,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E9CEBEC5B65D27B9DBE86491EA4BDF6C /* CrashSupervisor */ = {
+			isa = PBXGroup;
+			children = (
+				A77FB423E1C4D23C50EDB0F35CEF5757 /* CrashSupervisor.h */,
+				5D17CDEA157322196FD6CF3744A38E4E /* CrashSupervisor.m */,
+			);
+			name = CrashSupervisor;
+			sourceTree = "<group>";
+		};
+		F41C8D16DBC305E7B3158F2324452CCB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				579C07F7DE9C84C2D2E463BDDA6CFD7C /* LICENSE */,
+				50C70FDBB279080889B758D28B28512D /* README.md */,
+				B1660EE8731F581CE99277314E780D2D /* Supervisor.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F649F5E075126115EC0CD6D1A9D4DE1E /* OCBridge */ = {
+			isa = PBXGroup;
+			children = (
+				0166282A3CED7EA48460241A2C329148 /* ASLFishHook.h */,
+				8E20916F5FE4C8A52B2432E37C9BFC31 /* ASLFishHook.m */,
+			);
+			name = OCBridge;
+			path = Core/NSLogSupervisor/Classes/OCBridge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3AA16973DBC4D7B6C4C674870A49B654 /* Headers */ = {
+		1BF06E646A1B5E5651BABE5C85EB75A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDB824794CE9BA61DDE1FE77FC88C4D /* fishhook-umbrella.h in Headers */,
-				376C75C10C63CAC8358C216A52F92299 /* fishhook.h in Headers */,
+				6980F9B4F239D4B062E633E519D5FDDC /* fishhook-umbrella.h in Headers */,
+				BB1F7265C5A3B45328C72F38BD6ED8A7 /* fishhook.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64D8C6BFC84292C4A3708004CABFCF7E /* Headers */ = {
+		24D57A48D21809313BC0129E951CF914 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E4AFD8DD57B3C10BF18FD56F2A0387 /* ASLFishHook.h in Headers */,
-				B8B493769BF6AA70DCD1331A28CC5F10 /* Supervisor-umbrella.h in Headers */,
+				514DE5D64E9519F201C21D726F7129A4 /* ASLFishHook.h in Headers */,
+				539190CD59901389DC7563689CCEE3DB /* CrashSupervisor.h in Headers */,
+				EB1BB71801CA4CF9253229F325A56724 /* Supervisor-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,12 +412,12 @@
 /* Begin PBXNativeTarget section */
 		58CAF5B0291DAB42086F0645150E1791 /* fishhook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 882A1F6E8A4442BE66EF512038227E6A /* Build configuration list for PBXNativeTarget "fishhook" */;
+			buildConfigurationList = D4017188CAC94AAA655F2E52F9A8B13E /* Build configuration list for PBXNativeTarget "fishhook" */;
 			buildPhases = (
-				3AA16973DBC4D7B6C4C674870A49B654 /* Headers */,
-				6CC63BE8480A2FFAD4FB9F02E4C517F4 /* Sources */,
-				D20FF940BDC8BF829C3A2280783BDF9B /* Frameworks */,
-				9F51BDEBF07B3D34A8A76902876779F7 /* Resources */,
+				1BF06E646A1B5E5651BABE5C85EB75A0 /* Headers */,
+				FC2FEE5A85C8A6837418A1D637F3806C /* Sources */,
+				783336B97A0D1C7A5AC6BCE941AFE9E7 /* Frameworks */,
+				64A5F85F2ACEFF991B673727EEDB7882 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -415,18 +430,18 @@
 		};
 		7797C1F4F7142869310F05EE446FC41B /* Supervisor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD11C66B4523D8E4E640574CAEAC4E40 /* Build configuration list for PBXNativeTarget "Supervisor" */;
+			buildConfigurationList = 61B9DDB24BA8E511041A4770A208E3CF /* Build configuration list for PBXNativeTarget "Supervisor" */;
 			buildPhases = (
-				64D8C6BFC84292C4A3708004CABFCF7E /* Headers */,
-				F013F90D2B6238157D8E0DFFCD649FF0 /* Sources */,
-				36C604E02D106A4EF5CE12F5A6E6C807 /* Frameworks */,
-				43DA9D6AD883C4AA11304D49FFED16C8 /* Resources */,
+				24D57A48D21809313BC0129E951CF914 /* Headers */,
+				1FF8200E9EF8C2113446D444C7E0209B /* Sources */,
+				A3EF0016599E8F7E32FC94FC29CDD7E9 /* Frameworks */,
+				42743B8EAB1109BD8A3D935AA639273D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8335DA635CE7D20AB9980A433FCD75F /* PBXTargetDependency */,
-				0191883F2CFB9A4B616F943BE90CAF1A /* PBXTargetDependency */,
+				02A19F3CD7B5409E5A9F619340ECF044 /* PBXTargetDependency */,
+				39690D5C4743CF748526C8038EA57295 /* PBXTargetDependency */,
 			);
 			name = Supervisor;
 			productName = Supervisor;
@@ -454,11 +469,11 @@
 		};
 		CE9478C45BD5E5BF904CE37F20AF382A /* Supervisor-iSupervisor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64A04903ECA0BDEA38BE5C4455601177 /* Build configuration list for PBXNativeTarget "Supervisor-iSupervisor" */;
+			buildConfigurationList = 3ADD31B1111572AC3A55630CD14311CB /* Build configuration list for PBXNativeTarget "Supervisor-iSupervisor" */;
 			buildPhases = (
-				A0398D090D47E3F92E786E5752892799 /* Sources */,
-				B80564F2AD534CD38CF4E1C38494B3C4 /* Frameworks */,
-				E80E0031B12EE690CC44E7E0F5FB5FBF /* Resources */,
+				DC268B3E44A5C53991829A029F217F06 /* Sources */,
+				7E6A5806A78A83549740E717794260D6 /* Frameworks */,
+				A8D24E68BF1678861B6613083E98EE7C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -521,11 +536,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43DA9D6AD883C4AA11304D49FFED16C8 /* Resources */ = {
+		42743B8EAB1109BD8A3D935AA639273D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1B92A0BB9DF7C98B964D3C8F7B22484 /* iSupervisor.bundle in Resources */,
+				D6ADE07439010C0ED7698440EDF8A5E3 /* iSupervisor.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A5F85F2ACEFF991B673727EEDB7882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,14 +558,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F51BDEBF07B3D34A8A76902876779F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E80E0031B12EE690CC44E7E0F5FB5FBF /* Resources */ = {
+		A8D24E68BF1678861B6613083E98EE7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -560,19 +575,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6CC63BE8480A2FFAD4FB9F02E4C517F4 /* Sources */ = {
+		1FF8200E9EF8C2113446D444C7E0209B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2E6886B9276A340EEDB044B36208185 /* fishhook-dummy.m in Sources */,
-				F378F2F3CE68F61A83494A6F05ABFC56 /* fishhook.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0398D090D47E3F92E786E5752892799 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				776E7E2CA8FA167FB72332370CCF7E75 /* ASLFishHook.m in Sources */,
+				99A54E6994BDBBBCCDFE8FE29E2284FC /* CrashSupervisor.m in Sources */,
+				DBD0143C93A9C369C06A8D7EA536BC12 /* NSLogSupervisor.swift in Sources */,
+				1939E42EC414EAD9DCAFFAFEE8ADF639 /* Supervisor-dummy.m in Sources */,
+				19A567F5D34919785C60EE011240A8A1 /* Supervisor.swift in Sources */,
+				D452C2068602FF7B51FA61B4FF974B5B /* SupervisorLogger.swift in Sources */,
+				EC9D15CEC4BE7100A580E07C564464A1 /* SupervisorLogModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,33 +605,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F013F90D2B6238157D8E0DFFCD649FF0 /* Sources */ = {
+		DC268B3E44A5C53991829A029F217F06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91A80E1D3C25AFE7E1E7A00526C7006D /* ASLFishHook.m in Sources */,
-				9539D3F7DFDEB9C32139B5B9E261526F /* NSLogSupervisor.swift in Sources */,
-				A01C06ED0E0E4D7DB4F21B6F90D12A2E /* Supervisor-dummy.m in Sources */,
-				E5BD10E43828A5D3773FCEAF4F89F88B /* Supervisor.swift in Sources */,
-				669850FAA75AC54AD0DB61BBE9F26FBF /* SupervisorLogger.swift in Sources */,
-				F812B214659F528F779C85E015993E1D /* SupervisorLogModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2FEE5A85C8A6837418A1D637F3806C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B0CB46C4A7810FBD69FCAAF9D9865D /* fishhook-dummy.m in Sources */,
+				80E6BFE7E24602251A6BCDBC73B3D5C2 /* fishhook.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0191883F2CFB9A4B616F943BE90CAF1A /* PBXTargetDependency */ = {
+		02A19F3CD7B5409E5A9F619340ECF044 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = fishhook;
-			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
-			targetProxy = 3D93D5B90348D7F422B7E69F04F57AA4 /* PBXContainerItemProxy */;
+			name = "Supervisor-iSupervisor";
+			target = CE9478C45BD5E5BF904CE37F20AF382A /* Supervisor-iSupervisor */;
+			targetProxy = 157FC4B7395E4A8AE78EF50031A0AA90 /* PBXContainerItemProxy */;
 		};
 		3660B8CE97CB52C32D1F10BE33C6F8BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = fishhook;
 			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
 			targetProxy = BB390C614D1960EBF751243BA56291B9 /* PBXContainerItemProxy */;
+		};
+		39690D5C4743CF748526C8038EA57295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = fishhook;
+			target = 58CAF5B0291DAB42086F0645150E1791 /* fishhook */;
+			targetProxy = 61E716269C91E4D90223A7EBBE2B2BFA /* PBXContainerItemProxy */;
 		};
 		6D65BE4B3D090284F5FDB2C59887F6C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -632,32 +654,9 @@
 			target = 7797C1F4F7142869310F05EE446FC41B /* Supervisor */;
 			targetProxy = EF1387581B423D2A4A7815049CC25512 /* PBXContainerItemProxy */;
 		};
-		A8335DA635CE7D20AB9980A433FCD75F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Supervisor-iSupervisor";
-			target = CE9478C45BD5E5BF904CE37F20AF382A /* Supervisor-iSupervisor */;
-			targetProxy = 9C509202C515E2213DEAC3A7617ACF51 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13C741AB25AB8C4CD2AF12FC437F3F0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503294C573F85F1B92DCCEEFCCEDE1C4 /* Supervisor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Supervisor";
-				IBSC_MODULE = Supervisor;
-				INFOPLIST_FILE = "Target Support Files/Supervisor/ResourceBundle-iSupervisor-Supervisor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = iSupervisor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		1AEA9176249002149DA91A567BC3EF14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 212E18524227A753AB25C9D9EE857204 /* Pods-Supervisor_Tests.debug.xcconfig */;
@@ -690,38 +689,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		348C52F8A77609A60483898AB41D9FA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503294C573F85F1B92DCCEEFCCEDE1C4 /* Supervisor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Supervisor/Supervisor-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Supervisor/Supervisor-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Supervisor/Supervisor.modulemap";
-				PRODUCT_MODULE_NAME = Supervisor;
-				PRODUCT_NAME = Supervisor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		438A0910BFB7C99D1D02E0E347EF0114 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -756,26 +723,9 @@
 			};
 			name = Debug;
 		};
-		6F916E6EB384098D0A1DE9BC9878E04D /* Debug */ = {
+		45E9135B804BAF2A617BB6F57BF1F239 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503294C573F85F1B92DCCEEFCCEDE1C4 /* Supervisor.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Supervisor";
-				IBSC_MODULE = Supervisor;
-				INFOPLIST_FILE = "Target Support Files/Supervisor/ResourceBundle-iSupervisor-Supervisor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = iSupervisor;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A7B7942A8C37CC1737D790B536411D18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 503294C573F85F1B92DCCEEFCCEDE1C4 /* Supervisor.xcconfig */;
+			baseConfigurationReference = AF9AB04056C7721F569F49F92A4066DA /* Supervisor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -794,6 +744,37 @@
 				MODULEMAP_FILE = "Target Support Files/Supervisor/Supervisor.modulemap";
 				PRODUCT_MODULE_NAME = Supervisor;
 				PRODUCT_NAME = Supervisor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8800D64EB207E3B1D4AB30243C6FEB1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E95E5BA8E4488E058AAADB7655C25C /* fishhook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
+				PRODUCT_MODULE_NAME = fishhook;
+				PRODUCT_NAME = fishhook;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -928,7 +909,7 @@
 			};
 			name = Debug;
 		};
-		C6ECD61C690F8BE0601A2B7DF7F12DBB /* Debug */ = {
+		BD1FB7F2EE043E1C48B5BAA100BD6251 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38E95E5BA8E4488E058AAADB7655C25C /* fishhook.xcconfig */;
 			buildSettings = {
@@ -954,8 +935,26 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C58CEECAF3EA498BF99024A295FDBF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9AB04056C7721F569F49F92A4066DA /* Supervisor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Supervisor";
+				IBSC_MODULE = Supervisor;
+				INFOPLIST_FILE = "Target Support Files/Supervisor/ResourceBundle-iSupervisor-Supervisor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = iSupervisor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -986,6 +985,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAB59B71C423D039A2AEBF2136F761F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9AB04056C7721F569F49F92A4066DA /* Supervisor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Supervisor/Supervisor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Supervisor/Supervisor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Supervisor/Supervisor.modulemap";
+				PRODUCT_MODULE_NAME = Supervisor;
+				PRODUCT_NAME = Supervisor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1027,35 +1058,20 @@
 			};
 			name = Release;
 		};
-		F7FAB15CF52B2564B41E26C193B01022 /* Release */ = {
+		F49FB389FD3F9794FA36DFFD3B9678C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38E95E5BA8E4488E058AAADB7655C25C /* fishhook.xcconfig */;
+			baseConfigurationReference = AF9AB04056C7721F569F49F92A4066DA /* Supervisor.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/fishhook/fishhook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/fishhook/fishhook-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Supervisor";
+				IBSC_MODULE = Supervisor;
+				INFOPLIST_FILE = "Target Support Files/Supervisor/ResourceBundle-iSupervisor-Supervisor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/fishhook/fishhook.modulemap";
-				PRODUCT_MODULE_NAME = fishhook;
-				PRODUCT_NAME = fishhook;
+				PRODUCT_NAME = iSupervisor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1071,6 +1087,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3ADD31B1111572AC3A55630CD14311CB /* Build configuration list for PBXNativeTarget "Supervisor-iSupervisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58CEECAF3EA498BF99024A295FDBF65 /* Debug */,
+				F49FB389FD3F9794FA36DFFD3B9678C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1080,29 +1105,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64A04903ECA0BDEA38BE5C4455601177 /* Build configuration list for PBXNativeTarget "Supervisor-iSupervisor" */ = {
+		61B9DDB24BA8E511041A4770A208E3CF /* Build configuration list for PBXNativeTarget "Supervisor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F916E6EB384098D0A1DE9BC9878E04D /* Debug */,
-				13C741AB25AB8C4CD2AF12FC437F3F0C /* Release */,
+				45E9135B804BAF2A617BB6F57BF1F239 /* Debug */,
+				CAB59B71C423D039A2AEBF2136F761F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		882A1F6E8A4442BE66EF512038227E6A /* Build configuration list for PBXNativeTarget "fishhook" */ = {
+		D4017188CAC94AAA655F2E52F9A8B13E /* Build configuration list for PBXNativeTarget "fishhook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6ECD61C690F8BE0601A2B7DF7F12DBB /* Debug */,
-				F7FAB15CF52B2564B41E26C193B01022 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD11C66B4523D8E4E640574CAEAC4E40 /* Build configuration list for PBXNativeTarget "Supervisor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7B7942A8C37CC1737D790B536411D18 /* Debug */,
-				348C52F8A77609A60483898AB41D9FA8 /* Release */,
+				8800D64EB207E3B1D4AB30243C6FEB1E /* Debug */,
+				BD1FB7F2EE043E1C48B5BAA100BD6251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
