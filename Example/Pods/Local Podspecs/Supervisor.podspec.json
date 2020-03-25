@@ -24,10 +24,22 @@
       "Supervisor/Assets/*.png"
     ]
   },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
   "subspecs": [
     {
       "name": "SupervisorLogger",
       "source_files": "Core/SupervisorLogger/Classes/**/*"
+    },
+    {
+      "name": "NSLogSupervisor",
+      "source_files": "Core/NSLogSupervisor/Classes/**/*",
+      "dependencies": {
+        "fishhook": [
+          "~> 0.2"
+        ]
+      }
     }
   ]
 }

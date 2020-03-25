@@ -1,18 +1,27 @@
 PODS:
+  - fishhook (0.2)
   - Supervisor (0.1.0):
+    - Supervisor/NSLogSupervisor (= 0.1.0)
     - Supervisor/SupervisorLogger (= 0.1.0)
+  - Supervisor/NSLogSupervisor (0.1.0):
+    - fishhook (~> 0.2)
   - Supervisor/SupervisorLogger (0.1.0)
 
 DEPENDENCIES:
   - Supervisor (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - fishhook
 
 EXTERNAL SOURCES:
   Supervisor:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Supervisor: ed83bcd392596abbb4dad49b9c8b934bb3cf740d
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  Supervisor: c7adb83c13f2b0fff54a3a7c1eb38fcda060fb36
 
-PODFILE CHECKSUM: f69833fb204126afe49d5626521401e522656be9
+PODFILE CHECKSUM: fdcc2b208e1b34f487274bfc7d3db94fe222a322
 
 COCOAPODS: 1.8.4

@@ -5,7 +5,6 @@ target 'Supervisor_Example' do
 
   target 'Supervisor_Tests' do
     inherit! :search_paths
-
-    
   end
 end
+

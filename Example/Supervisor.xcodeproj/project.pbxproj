@@ -82,12 +82,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		51DC54562429DF7F00A2ADB2 /* SupervisorLogger */ = {
+		51DC54562429DF7F00A2ADB2 /* SupervisorLoggerTests */ = {
 			isa = PBXGroup;
 			children = (
 				51DC54592429DF9D00A2ADB2 /* SupervisorLoggerTests.swift */,
 			);
-			name = SupervisorLogger;
+			name = SupervisorLoggerTests;
+			sourceTree = "<group>";
+		};
+		51DC54EC242A0C4400A2ADB2 /* NSLogSupervisorTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NSLogSupervisorTests;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -136,7 +143,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				51DC54562429DF7F00A2ADB2 /* SupervisorLogger */,
+				51DC54EC242A0C4400A2ADB2 /* NSLogSupervisorTests */,
+				51DC54562429DF7F00A2ADB2 /* SupervisorLoggerTests */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -283,10 +291,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Supervisor_Example/Pods-Supervisor_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Supervisor/Supervisor.framework",
+				"${BUILT_PRODUCTS_DIR}/fishhook/fishhook.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Supervisor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/fishhook.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -492,6 +502,7 @@
 			baseConfigurationReference = 3E3C42CF36E5A0E176AE490B /* Pods-Supervisor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				DEVELOPMENT_TEAM = B35J5K5S3C;
 				INFOPLIST_FILE = Supervisor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -508,6 +519,7 @@
 			baseConfigurationReference = 0197F3E1A1FD790CD5597270 /* Pods-Supervisor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				DEVELOPMENT_TEAM = B35J5K5S3C;
 				INFOPLIST_FILE = Supervisor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

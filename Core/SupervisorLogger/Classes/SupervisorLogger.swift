@@ -12,7 +12,7 @@ import UIKit
 //--------------------------------------------------------------------------
 @objc public protocol SupervisorLoggerDelegate: NSObjectProtocol {
     
-    func supervisorLogDidLog(with logModel: SupervisorLogModel)
+    func supervisorLoggerDidLog(with logModel: SupervisorLogModel)
 }
 
 //--------------------------------------------------------------------------
@@ -28,6 +28,12 @@ open class SupervisorLogger: NSObject {
     // log level, default is info
     open var logLevel : SupervisorLogType = .info;
 
+    // log queue
+    open var logQueue = DispatchQueue.init(label: "com.madao.SupervisorLogger")
+    
+    // delegate call back queue, default is on MainQueue
+    open var delegateQueue = DispatchQueue.main;
+    
     //--------------------------------------------------------------------------
     // MARK: file private property
     //--------------------------------------------------------------------------
@@ -37,13 +43,10 @@ open class SupervisorLogger: NSObject {
     
     // weak delegate tables
     fileprivate var delegateTable = NSHashTable<SupervisorLoggerDelegate>(options: .weakMemory)
-    
-    // log queue
-    open var logQueue = DispatchQueue.init(label: "SupervisorLog")
-    
-    // delegate call back queue, default is MainQueue
-    open var delegateQueue = DispatchQueue.main;
-    
+
+    //--------------------------------------------------------------------------
+    // MARK: PRIVATE FUNCTION
+    //--------------------------------------------------------------------------
 
     /// record message
     /// - Parameters:
@@ -83,7 +86,7 @@ open class SupervisorLogger: NSObject {
             self.delegateQueue.async {
                 
                 for delegate in self.delegateTable.objectEnumerator() {
-                    (delegate as? SupervisorLoggerDelegate)?.supervisorLogDidLog(with: logModel)
+                    (delegate as? SupervisorLoggerDelegate)?.supervisorLoggerDidLog(with: logModel)
                 }
             }
         }
@@ -98,6 +101,7 @@ open class SupervisorLogger: NSObject {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging debug messages
 //--------------------------------------------------------------------------
+
 extension SupervisorLogger {
     
     open class func debug(message: String?,
@@ -118,6 +122,7 @@ extension SupervisorLogger {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging info messages
 //--------------------------------------------------------------------------
+
 extension SupervisorLogger {
     
     open class func info(message: String?,
@@ -138,6 +143,7 @@ extension SupervisorLogger {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging warn messages
 //--------------------------------------------------------------------------
+
 extension SupervisorLogger {
     
     open class func warn(message: String?,
@@ -158,6 +164,7 @@ extension SupervisorLogger {
 //--------------------------------------------------------------------------
 // MARK: Extension for logging error messages
 //--------------------------------------------------------------------------
+
 extension SupervisorLogger {
     
     open class func error(message: String?,
@@ -178,6 +185,7 @@ extension SupervisorLogger {
 //--------------------------------------------------------------------------
 // MARK: Extension for delegate table
 //--------------------------------------------------------------------------
+
 extension SupervisorLogger {
     
     

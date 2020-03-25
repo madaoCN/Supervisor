@@ -36,10 +36,18 @@ Pod::Spec.new do |s|
       'iSupervisor' => ['Supervisor/Assets/*.png']
   }
   
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+
   s.subspec 'SupervisorLogger' do |subspec|
       subspec.source_files = 'Core/SupervisorLogger/Classes/**/*'
   end
   
+  s.subspec 'NSLogSupervisor' do |subspec|
+      subspec.source_files = 'Core/NSLogSupervisor/Classes/**/*'
+      subspec.dependency     'fishhook', '~> 0.2'
+  end
+  
+
   # s.resource_bundles = {
   #   'iSupervisor' => ['iSupervisor/Assets/*.png']
   # }
