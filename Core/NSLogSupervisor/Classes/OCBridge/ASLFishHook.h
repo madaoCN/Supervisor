@@ -15,6 +15,7 @@ typedef void(^ASLFishHookCallBack)(ASLFishHookInfoModel *infoModel);
 
 typedef NS_ENUM(NSUInteger, ASLFishHookType) {
     ASLFishHookType_Fwrite,  // print
+    ASLFishHookType_Fprintf, // fprintf
     ASLFishHookType_Writev,  // NSLog
 };
 

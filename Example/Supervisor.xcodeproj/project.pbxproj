@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12B4A2D73254CD911815A481 /* Pods_Supervisor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B16E0F2A0E3188365F89331 /* Pods_Supervisor_Example.framework */; };
+		51B1EAEF242C84EF00AC19E8 /* FPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B1EAEE242C84EF00AC19E8 /* FPrint.m */; };
+		51B1EAF1242C85C600AC19E8 /* NSLogSupervisorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B1EAF0242C85C600AC19E8 /* NSLogSupervisorTests.swift */; };
 		51DC545A2429DF9D00A2ADB2 /* SupervisorLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DC54592429DF9D00A2ADB2 /* SupervisorLoggerTests.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -33,6 +35,10 @@
 		0CE23FE2D990F87550DF0427 /* Supervisor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Supervisor.podspec; path = ../Supervisor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2D824FE880B10F7DCF1FBD8D /* Pods_Supervisor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supervisor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3C42CF36E5A0E176AE490B /* Pods-Supervisor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supervisor_Example.debug.xcconfig"; path = "Target Support Files/Pods-Supervisor_Example/Pods-Supervisor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		51B1EAEC242C84EF00AC19E8 /* Supervisor_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Supervisor_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		51B1EAED242C84EF00AC19E8 /* FPrint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPrint.h; sourceTree = "<group>"; };
+		51B1EAEE242C84EF00AC19E8 /* FPrint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPrint.m; sourceTree = "<group>"; };
+		51B1EAF0242C85C600AC19E8 /* NSLogSupervisorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLogSupervisorTests.swift; sourceTree = "<group>"; };
 		51DC54592429DF9D00A2ADB2 /* SupervisorLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisorLoggerTests.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Supervisor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supervisor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +99,9 @@
 		51DC54EC242A0C4400A2ADB2 /* NSLogSupervisorTests */ = {
 			isa = PBXGroup;
 			children = (
+				51B1EAED242C84EF00AC19E8 /* FPrint.h */,
+				51B1EAEE242C84EF00AC19E8 /* FPrint.m */,
+				51B1EAF0242C85C600AC19E8 /* NSLogSupervisorTests.swift */,
 			);
 			name = NSLogSupervisorTests;
 			sourceTree = "<group>";
@@ -143,6 +152,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				51B1EAEC242C84EF00AC19E8 /* Supervisor_Tests-Bridging-Header.h */,
 				51DC54EC242A0C4400A2ADB2 /* NSLogSupervisorTests */,
 				51DC54562429DF7F00A2ADB2 /* SupervisorLoggerTests */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
@@ -232,12 +242,12 @@
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = B35J5K5S3C;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = B35J5K5S3C;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -364,7 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				51B1EAF1242C85C600AC19E8 /* NSLogSupervisorTests.swift in Sources */,
 				51DC545A2429DF9D00A2ADB2 /* SupervisorLoggerTests.swift in Sources */,
+				51B1EAEF242C84EF00AC19E8 /* FPrint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,12 +515,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B35J5K5S3C;
 				INFOPLIST_FILE = Supervisor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -520,12 +535,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B35J5K5S3C;
 				INFOPLIST_FILE = Supervisor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -535,6 +552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9675F4272EA53884AAA02032 /* Pods-Supervisor_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B35J5K5S3C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -548,6 +566,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Supervisor_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supervisor_Example.app/Supervisor_Example";
@@ -558,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFB6B36ABD2E9EE737BDDDAA /* Pods-Supervisor_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B35J5K5S3C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -567,6 +588,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/Supervisor_Tests-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Supervisor_Example.app/Supervisor_Example";
